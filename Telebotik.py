@@ -129,32 +129,3 @@ def my_answer(message):
             bot.send_message(message.chat.id,dict_user[message.from_user.id].get_stat())
 
 bot.polling(none_stop = True)
-
-    # elif message.text == '1':
-    #     bot.send_message(message.chat.id,'Вы заработали 100 очков')
-    #     points+=100
-    # elif message.text == '2':
-    #     bot.send_message(message.chat.id,'Вы заработали 200 очков')
-    #     points += 200
-    # elif message.text == '3':
-    #     bot.send_message(message.chat.id,'Вы заработали 300 очков')
-    #     points += 300
-    # elif message.text == '4':
-    #     bot.send_message(message.chat.id,'Вы заработали 400 очков')
-    #     points += 400
-    # elif message.text == '5':
-    #     bot.send_message(message.chat.id,'Вы заработали 500 очков')
-    #     points += 500
-    # elif message.text == '6':
-    #     bot.send_message(message.chat.id,'Вы заработали 1000 очков')
-    #     points += 1000
-    # elif message.text == '7':
-    #     bot.send_message(message.chat.id,'Вы заработали 1500 очков')
-    #     points += 1500
-    # elif message.text == '8':
-    #     bot.send_message(message.chat.id,'Вы заработали 2000 очков')
-    #     points += 2000
-    # elif message.text == '9':
-    #     bot.send_message(message.chat.id,'Сектор приз на барабане\!')
-    # elif message.text == '10':
-    #     bot.send_message(message.chat.id,'Сектор плюс на барабане\!')
