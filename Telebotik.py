@@ -13,7 +13,7 @@ base = mybase()
 bot = telebot.TeleBot(Settings.ip)
 dict_user = {}
 my_magazin = Magazin()
-Settings.ip
+
 # нажатие на кнопку старт
 @bot.message_handler(commands = ['start'])
 def start(message):
